@@ -1,0 +1,60 @@
+//Dikembangkan oleh
+//Nama        : Ahmad Sony Alfathani
+//Tanggal     : 19 April 2018 (diperbaharui)
+//MErupakan perbaharuan dari code http://www.rhelectronics.net/store/radiation-detector-geiger-counter-diy-kit-second-edition.html
+//                                https://www.sfe-electronics.com/blog/news/tutorial-pemrograman-dht-sensor-menggunakan-arduino
+//Deskripsi program : program ini digunakan untuk Mengukur parameter curah hujan, kelembapan, temperature, intensitas UV,
+
+//Deskripsi penggunaan Pin I/O arduino dengan kompenen diluarnya
+//*****************************************************
+//  Arduino                   DHT22
+//    5V                      VCC
+//    D5                   Data(PullUp)
+//                             NC
+//    GND                     GND
+//****************************************************
+//  Arduino           Sensor Curah Hujan
+//    5V                 Kabel Merah
+//    GND                Kabel Hitam
+//    D2(Interups)       Kabel Putih
+//****************************************************
+//  Arduino          Sensor UV (GYML_8511)
+//    A0                     OUT
+//   3,3V                    3V3
+//   GND                     GND
+//****************************************************
+//  Arduino             Kecepatan Angin
+//    A1                 Kabel Kuning
+//  12-24V               Kabel Merah
+//    GND                Kabel Hitam
+//****************************************************
+//  Arduino              Arah Angin
+//    A2                 Kabel Kuning
+//   12-24V              Kabel Merah
+//    GND                Kabel Hitam
+//****************************************************
+//  Arduino         Micro SD Card Adapter
+//    D10                   CS
+//    D11                  MOSI
+//    D12                  MISO
+//    D13                  SCK
+//    5V                   VCC
+//    GND                  GND
+//****************************************************
+//  Arduino              RTC DS3231
+//  SDA Pin                SDA
+//  SCL Pin                SCL
+//    5V                   VCC
+//    GND                  GND
+//****************************************************
+//  Arduino              ESP 8266
+//    D3                    Tx
+//    GND                   GND
+//   3.3V                  CH_PD
+//    EN                   GPIO 2
+//    EN                   RESET
+//    EN                   GPIO 1
+//   3.3V                   VCC
+//    D4                    Rx
+
+//****************************************************
